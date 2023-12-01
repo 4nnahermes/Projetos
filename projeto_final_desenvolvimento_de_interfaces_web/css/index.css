@@ -1,0 +1,37 @@
+h1 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#conteudo {
+	height: 480px;
+}
+
+#conteudo .texto {
+	width: 310px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 110px;
+}
+
+#conteudo .texto a img {
+	height: 23px;
+	margin-top: 20px;
+}
+
+#conteudo figure {
+	width: 310px;
+	float: right;
+	margin-right: 60px;
+	margin-top: 80px;
+}
+
+#conteudo figure img {
+	width: 100%;
+}
+
+p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}

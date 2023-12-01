@@ -1,0 +1,63 @@
+.menuessencias{
+	font-weight: bolder;
+}
+
+#conteudo #essencias {
+	width: 398px;
+	display: inline-block;
+}
+
+#conteudo #essencias figure {
+	width: 310px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 60px;
+}
+
+#conteudo #essencias figure img {
+	width: 100%;
+}
+
+#conteudo #essencias .texto1 {
+	width: 310px;
+	float: left;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+
+#conteudo #oleos {
+	width: 398px;
+	display: inline-block;
+}
+
+#conteudo #oleos figure {
+	width: 310px;
+	float: right;
+	margin-right: 60px;
+	margin-top: 60px;
+}
+
+#conteudo #oleos figure img {
+	width: 100%;
+}
+
+#conteudo #oleos .texto2 {
+	width: 310px;
+	float: right;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: center;
+}

@@ -1,0 +1,89 @@
+.menuprodutos{
+	font-weight: bolder;
+}
+#conteudo {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#conteudo article {
+	width: 264px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#conteudo .lavanda figure {
+	width: 210px;
+	margin: auto;
+}
+
+#conteudo .lavanda figure img{
+	width: 100%;
+}
+
+#conteudo .capim figure {
+	width: 210px;
+	margin: auto;
+}
+
+#conteudo .capim figure img{
+	width: 100%;
+}
+
+#conteudo .camomila figure {
+	width: 210px;
+	margin: auto;
+}
+
+#conteudo .camomila figure img{
+	width: 100%;
+}
+
+#conteudo .canela figure {
+	width: 210px;
+	margin: auto;
+}
+
+#conteudo .canela figure img{
+	width: 100%;
+}
+
+#conteudo .cerejeira figure {
+	width: 210px;
+	margin: auto;
+}
+
+#conteudo .cerejeira figure img{
+	width: 100%;
+}
+
+#conteudo .maracuja figure {
+	width: 210px;
+	margin: auto;
+}
+
+#conteudo .maracuja figure img{
+	width: 100%;
+}
+
+#conteudo a img {
+	height: 23px;
+	margin-top: 20px;
+	margin-left: 325px;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+p {
+	font-size: 13px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 210px;
+	margin: auto;
+}

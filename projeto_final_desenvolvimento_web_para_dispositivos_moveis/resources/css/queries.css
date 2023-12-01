@@ -1,0 +1,889 @@
+/*-----------------------------*/
+/*---------MEDIA QUERY---------*/
+/*-----------------------------*/
+
+@media only screen and (max-width: 1300px) {
+    .main-nav {
+        right: 30%;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        margin-left: 35px;
+    }
+
+    #mapa {
+        width: 570px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .main-nav {
+        right: 29%;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .span-1-of-3 {
+        width: 100%;
+    }
+
+    .span-1-of-3 img {
+        float: left;
+        width: 180px;
+        padding-left: 20px;
+    }
+
+    .span-1-of-3 h4 {
+        float: left;
+        padding-left: 30px;
+        font-size: 110%;
+    }
+
+    .onco h4 {
+        padding-top: 10px;
+    }
+
+    .geriatria h4 {
+        padding-top: 8px;
+    }
+
+    .span-1-of-3 p {
+        float: left;
+        width: 80%;
+        padding-left: 30px;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .menu {
+        margin: 0px;
+    }
+   
+    .left {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .logo {
+        left: 35%;
+    }
+
+    .hero-text-box {
+        left: 35%;
+    }
+
+    .main-nav {
+        right: 29%;
+        margin-right: 0px;
+    }
+
+
+    .main-nav li {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .section-testimonials {
+        height: auto;
+    }
+    
+    .testimonials {
+        padding-left: 40px;
+    }
+
+    .quote {
+        width: 47%;
+    }
+
+    blockquote {
+        font-size: 90%;
+    }
+
+    .left {
+        padding-left: 30px;
+    }
+
+    #mapa {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1077px) {
+    .section-location {
+        height: auto;
+    }
+
+    .onco h4 {
+        padding-top: 0px;
+    }
+
+    .geriatria h4 {
+        padding-top: 1px;
+    }
+}
+
+
+@media only screen and (max-width: 1060px) {
+    #mapa {
+        width: 550px;
+    }
+
+    .logo {
+        left: 37%;
+    }
+
+    .hero-text-box {
+        left: 37%;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .main-nav {
+        left: -5%;
+    }
+
+    .left {
+        padding-left: 50px;
+    }
+
+    .span-1-of-3 h4 {
+        font-size: 100%;
+    }
+
+    .span-1-of-3 p {
+        font-size: 95%;
+    }
+
+    .onco h4 {
+        padding-top: 4px;
+    }
+
+    .geriatria h4 {
+        padding-top: 4px;
+    }
+
+    #mapa {
+        width: 500px;
+        padding-left: 20px;
+    }
+
+    .areas {
+        width: 650px;
+    }
+    
+    .icones {
+        width: 207px;
+    }
+}  
+
+@media only screen and (max-width: 990px) {
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .main-nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .main-nav li a:visited
+    .main-nav li a:link {
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .ion-nav-icon {
+        font-size: 200%;
+        color: #fff;
+    }
+
+   .logo {
+    left: 40%;
+   }
+
+   .hero-text-box {
+    left: 40%;
+    top: 60%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .span-1-of-3 {
+        width: 98%;
+    }
+
+    .areas {
+        width: 100%;
+    }
+
+    .icones {
+        width: 100%;
+    }
+
+    .footer-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-nav {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .left {
+        width: 48%;
+    }
+
+    #mapa {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .cardio h4 {
+        padding-top: 4px;
+    }
+
+    .span-1-of-3 p {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .logo {
+        left: 43%;
+       }
+    
+    .hero-text-box {
+        left: 43%;
+    }
+
+    .mobile-nav-icon {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .span-1-of-2 {
+        width: 100%;
+    }
+
+    .box {
+        width: 60%;
+    }
+
+    .left {
+        padding-left: 71px;
+    }
+
+    #mensagemid {
+        width: 60%;
+    }
+
+    #mapa {
+        float: left;
+        position: absolute;
+        left: 10%;
+        transform: translate(-5%);
+        width: 90%;
+    }
+
+    .section-location {
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width: 894px) {
+    .logo {
+        left: 46%;
+       }
+    
+    .hero-text-box {
+        left: 46%;
+    }
+
+   .box1 h4,
+   .box2 h4,
+   .cardio h4,
+   .onco h4,
+   .geriatria h4 {
+        font-size: 90%;
+    }
+
+    .cardio p,
+    .onco p,
+    .geriatria p {
+        font-size: 90%;
+    }
+
+    blockquote {
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .mobile-nav-icon {
+        margin-right: 40px;
+    }
+
+    .span-1-of-3 img {
+        float: left;
+        width: 40%;
+        padding-left: 50px;
+    }
+
+    .span-1-of-3 h4 {
+        float: left;
+        width: 45%;
+        font-size: 90%;
+        margin: auto;
+        padding-top: 63px;
+    }
+
+    .span-1-of-3 p {
+        float: left;
+        width: 55%;
+        font-size: 90%;
+    }
+
+    .blockquote {
+        margin: auto;
+    }
+
+    .quote {
+        width: 98%;
+    }
+
+    cite {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .logo {
+        left: 48%;
+       }
+    
+    .hero-text-box {
+        left: 48%;
+    }
+
+    .box1 h4,
+    .box2 h4,
+    .cardio h4,
+    .onco h4,
+    .geriatria h4 {
+        font-size: 85%;
+    }
+
+    .cardio p,
+    .onco p,
+    .geriatria p {
+        font-size: 85%;
+    }
+
+    #mapa {
+        width: 89%;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    .cardio h4 {
+        padding-top: 45px;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+    .geriatria h4 {
+        padding-top: 45px;
+    }
+
+    .gallery {
+        width: 500px;
+        margin: auto;
+    }
+    
+    .item img {
+        width: 500px;
+    }
+
+    .gallery .control-button {
+        margin-bottom: 60px;
+    }
+
+    .section-gallery {
+        height: 610px;
+    }
+}
+
+@media only screen and (max-width: 771px) {
+    .logo {
+        left: 50%;
+       }
+    
+    .hero-text-box {
+        left: 43%;
+        width: 600px;
+    }
+   
+    .onco h4 {
+        padding-top: 45px;
+    }   
+}
+
+@media only screen and (max-width: 755px) {
+    .box1,
+    .box2 {
+        width: 49%;
+        margin: auto;
+    }
+
+    .box1 h4,
+    .box2 h4 {
+        width: 100%;
+    }
+
+    .quote {
+        width: 97%;
+        margin: auto;
+    }
+
+    .left {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .logo {
+        left: 53%;
+       }
+    
+    .hero-text-box {
+        left: 46%;
+    }
+
+    .main-nav {
+        padding-left: 15px;
+    }
+   
+    .cardio h4 {
+        padding-top: 38px;
+    }
+
+    .onco h4 {
+        padding-top: 38px;
+    }
+
+    .geriatria h4 {
+        padding-top: 38px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .logo {
+        left: 46%;
+        font-size: 160%;
+       }
+    
+    .hero-text-box {
+        left: 45%;
+        width: 550px;
+    }
+
+    .hero-text-box h1 {
+        font-size: 160%;
+    }
+
+    .main-nav {
+        padding-left: 5px;
+    }
+    
+    .cardio h4 {
+        padding-top: 35px;
+    }
+
+    .onco h4 {
+        padding-top: 35px;
+    }
+
+    .geriatria h4 {
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 680px) {    
+    .span-1-of-3 img {
+        display: block;
+        width: 94%;
+    }
+
+    .span-1-of-3 h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .span-1-of-3 p {
+        display: block;
+        width: 100%;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-bottom: 20px;
+    }
+
+    .images-showcase li {
+        width: 50%;        
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .logo {
+        left: 50%;
+       }
+    
+    .hero-text-box {
+        left: 49%;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    #mensagemid {
+        width: 90%;
+    }
+
+    .left {
+        padding-left: 60px;
+    }
+
+    #mapa {
+        width: 87%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .logo {
+        left: 53%;
+       }
+    
+    .hero-text-box {
+        left: 48%;
+        width: 500px;
+    }
+
+    .gallery {
+        width: 450px;
+        margin: auto;
+    }
+    
+    .item img {
+        width: 450px;
+    }
+
+    .gallery .control-button {
+        margin-bottom: 90px;
+    }
+
+    .section-gallery {
+        height: 573px;
+    }
+}
+
+@media only screen and (max-width: 582px) {
+    .areas {
+        width: 48%;
+    }
+
+    .footer-nav {
+        float: left;
+    }
+
+    .footer-nav li {
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+ 
+    .icones {
+        float: right;
+        width: 48%;
+    }
+
+    .social-nav li {
+        display: block;
+        margin-bottom: 5px;
+        text-align: right;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .logo {
+        left: 56%;
+       }
+    
+    .hero-text-box {
+        left: 50%;
+    }
+
+    .span-1-of-3 img {
+        padding-left: 37px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .logo {
+        left: 59%;
+       }
+    
+    .hero-text-box {
+        left: 48%;
+        width: 450px;
+    }
+
+    .main-nav {
+        padding-left: 20px;
+    }
+
+    .box1 h4,
+    .box2 h4 {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+    .logo {
+        left: 61%;
+       }
+    
+    .hero-text-box {
+        left: 50%;
+    }
+
+    .gallery {
+        width: 400px;
+        margin: auto;
+    }
+    
+    .item img {
+        width: 400px;
+    }
+
+    .gallery .control-button {
+        margin-bottom: 120px;
+    }
+
+    .section-gallery {
+        height: 536px;
+    }
+
+    .left {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .logo {
+        left: 52%;
+        font-size: 130%;
+       }
+    
+    .hero-text-box {
+        left: 51%;
+    }
+
+    .hero-text-box h1 {
+        font-size: 130%;
+    }
+
+    .main-nav {
+        padding-left: 2px;
+    }
+
+    .main-nav li a {
+        font-size: 16px;
+    }
+
+    .main-nav li {
+        width: 100px;
+        margin: 0 0 10 0;
+    }
+ 
+    .ion-nav-icon {
+        font-size: 180%;
+        color: #fff;
+    }
+
+    h3 {
+        font-size: 140%;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .logo {
+        left: 55%;
+       }
+    
+    .hero-text-box {
+        left: 45%;
+        width: 370px;
+    }
+
+    .gallery {
+        width: 350px;
+        margin: auto;
+    }
+    
+    .item img {
+        width: 350px;
+    }
+
+    .gallery .control-button {
+        margin-bottom: 160px;
+    }
+
+    .section-gallery {
+        height: 495px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .logo {
+        left: 58%;
+       }
+    
+    .hero-text-box {
+        left: 48%;
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .logo {
+        left: 61%;
+       }
+
+    .ion-nav-icon {
+        display: none;
+    }
+
+    .main-nav {
+        display: block;
+        float: right;
+        padding-left: 150px;
+        width: 230px;
+    }
+
+    .main-nav li a {
+        float: right;
+        text-align: right;
+    }
+     
+    .hero-text-box {
+        left: 39%;
+        width: 280px;
+    }
+
+    .hero-text-box h1 {
+        font-size: 160%;
+    }
+  
+    .images-showcase li {
+        width: 100%;        
+    }
+
+    .span-1-of-3 img {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .logo {
+        left: 65%;
+    }
+
+    .main-nav {
+        padding-left: 130px;
+    }
+    
+    .hero-text-box {
+        left: 42%;
+    }
+
+    .span-1-of-3 img {
+        padding-left: 28px;
+    }
+
+    .gallery {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .item img {
+        width: 300px;
+    }
+
+    .gallery .control-button {
+        margin-bottom: 190px;
+    }
+
+    .section-gallery {
+        height: 457px;
+    }
+
+    .left {
+        padding-left: 47px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .logo {
+        left: 68%;
+    }
+
+    .main-nav {
+        padding-left: 110px;
+    }
+    
+    .hero-text-box {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .logo {
+        left: 71%;
+    }
+
+    .main-nav {
+        padding-left: 95px;
+    }
+    
+    .hero-text-box {
+        left: 48%;
+    }
+}

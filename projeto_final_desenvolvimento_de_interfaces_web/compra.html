@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estrutura.css">
+	<link rel="stylesheet" type="text/css" href="css/compra.css">
+	<meta charset="utf-8">
+	<title>Babuska Saboaria</title>
+</head>
+<body>
+	<div id="principal">
+		<header>
+			<figure>
+				<a href="index.html"><img class="logo" src="img/logo.png" alt="logo_babuska"></a>
+			</figure>
+			<nav>
+			<ul class="menu">
+				<li>
+					<a class="menuquem" href="quemsomos.html">quem somos</a>
+				</li>
+				<li>
+					<a class="menuprodutos" href="produtos.html">produtos</a>
+				</li>
+				<li>
+					<a class="menuessencias" href="essencias.html">essências</a>
+				</li>
+				<li>
+					<a class="menucontato" href="contato.html">contato</a>
+				</li>
+			</ul>
+		</nav>
+		</header>
+
+
+		<div id=form>
+			<form class="formulario" name="encomenda" action="recebedados.php" method="POST">
+				<div class="esquerda">
+					<h1>Encomende aqui</h1>
+					<label class="solo_titulo" for="nomeid">Nome</label>
+					<input class="box" type="text" name="nome" id="nomeid" placeholder="Maria Silva da Silva" required autofocus>
+							            
+		            <label class="solo_titulo" for="cpfid">CPF</label>
+					<input class="box" type="text" name="cpf" id="cpfid" placeholder="000.000.000-00" required>
+					
+		            <label class="solo_titulo" for="datanasc">Data de nascimento</label>
+					<input type="date" name="datanasc" id="datanasc">
+					
+		            <label class="solo_titulo" for="email">E-mail</label>
+					<input class="box" type="email" name="email" id="email" placeholder="nome@email.com" required>
+
+		            <label class="solo_titulo" for="fone">Telefone</label>
+					<input class="box" type="tel" name="fone" id="fone" placeholder="(DDD) 000000000" required>
+		  
+		            <label class="solo_titulo" for="cidade">Cidade</label>
+					<select name="cidade" id="cidade">
+						<option value="Porto Alegre">Porto Alegre</option>
+						<option value="Canoas">Canoas</option>
+						<option value="Sapucaia do Sul">Sapucaia do Sul</option>
+						<option value="Cachoeirinha">Cachoeirinha</option>
+						<option value="Alvorada">Alvorada</option>
+						<option value="Gravatai">Gravataí</option>
+		                <option value="Viamão">Viamão</option>
+					</select>
+		            
+					<label class="solo_titulo" for="endereco">Endereço</label>
+					<textarea name="endereco" id="endereco" placeholder="Rua, número e complemento" cols="35" rows="3" maxlength="100" required></textarea>
+				</div>
+
+				<div class="direita">
+					<span class="solo_titulo">Sabonetes</span>
+					
+					<div class="solo">
+						<input type="checkbox" name="lavanda" id="lavandaid" value="ok">
+						<label for="lavandaid">Lavanda</label>
+					</div>
+					
+					<div class="solo">
+						<input type="checkbox" name="flor" id="florid" value="ok">
+						<label for="florid">Flor de Cerejeira</label>
+					</div>
+					
+					<div class="solo">
+						<input type="checkbox" name="capimlimao" id="capimlimaoid" value="ok">
+						<label for="capimlimaoid">Capim Limão</label>
+					</div>
+					
+					<div class="solo">
+						<input type="checkbox" name="canela" id="canelaid" value="ok">
+						<label for="canelaid">Canela e aveia</label>
+					</div>
+					
+					<div class="solo">
+						<input type="checkbox" name="maracuja" id="maracujaid" value="ok">
+						<label for="maracujaid">Maracujá</label>
+					</div>
+					
+					<div class="solo">
+						<input type="checkbox" name="camomila" id="camomilaid" value="ok">
+						<label for="camomilaid">Camomila</label>
+					</div>
+
+					<span class="solo_titulo">Presente</span>
+					
+					<div class="solo">
+						<input type="radio" name="simp" id="simp" value="1">
+						<label for="simp">Desejo embalagem para presente</label>
+					</div>
+					
+					<div class="solo">
+						<input type="radio" name="naop" id="naop" value="2">
+						<label for="naop">Não desejo embalagem para presente</label>
+					</div>
+
+					<span class="solo_titulo">Descreva detalhadamente a quantidade de cada produto selecionado</span>
+					<textarea name="descreva" id="descreva" placeholder="EX: 10 sabonetes de lavanda, 7 de capim limão e 2 de camomila." cols="40" rows="3" maxlength="300"></textarea>
+
+					<input class="botao" type="image" name="comprar" src="img/botao4.png" alt="botão verde com escrito em branco 'solicitar encomenda'">
+				</div>
+			</form>
+
+			<div class="baixo">
+				<p>OBS: Dentro de 1 dia útil entraremos em contato com você por e-mail para informar o valor da entrega, combinar a forma de pagamento e em caso de solicitação de embalagem para presente, qual é a quantia necessária.</p>
+
+				<figure>
+					<img src="img/formulario.png" alt="fotografia de um sabonete com uma toalha enrolada e uma trouxinha de tecido">
+				</figure>
+			</div>
+		</div>
+
+
+		<footer>
+			<nav>
+			<ul class="rodape">
+				<li>
+					<a href="https://www.instagram.com/babuska.sabonetes/" target="_blank"><img src="img/iconrodape3.png" alt="ícone do instagram">babuska.sabonetes</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/Babuskasabonetes" target="_blank" ><img src="img/iconrodape1.png" alt="ícone do facebook">Babuska Sabonetes</a>
+				</li>
+				<li>
+					<a href="ondeestamos.html"><img src="img/iconrodape2.png" alt="ícone de pin localizador">onde estamos</a>
+				</li>
+			</ul>
+		</nav>
+		</footer>
+	</div>
+</body>
+</html>

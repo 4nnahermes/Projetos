@@ -1,0 +1,62 @@
+.menucontato{
+	font-weight: bolder;
+}
+
+#form {
+	font-family: 'Montserrat', sans-serif;
+	height: 985px;
+	margin: 54px 60px 60px 60px;
+}
+
+#form .esquerda {
+	width: 310px;
+	float: left;
+}
+
+#form .direita {
+	width: 310px;
+	float: right;
+	margin-top: 31px;
+}
+
+.botao {
+	margin-top: 10px;
+	height: 23px;
+}
+
+.baixo {
+	width: 680px;
+	margin-top: 10px;
+	float: right;
+}
+
+.baixo figure img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.solo {
+	display: block;
+}
+
+.solo_titulo {
+	display: block;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.box {
+	width: 275px;
+}
+
+h1 {
+	font-family: 'Alice', serif; 
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 14px;
+}

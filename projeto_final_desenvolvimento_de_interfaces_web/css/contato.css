@@ -1,0 +1,45 @@
+.menucontato{
+	font-weight: bolder;
+}
+
+#conteudo {
+	height: 515px;
+	background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), 
+		url(../img/contato_fundo.png);
+	background-repeat: no-repeat;
+	background-size: 800px;
+	background-position: top;
+}
+
+#conteudo .texto {
+	margin-left: 60px;
+	padding-top: 20px;
+}
+
+#conteudo .texto a {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	height: 25px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 35px;
+}
+
+h2 {
+	color: #FFF;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-top: 36px;
+	display: inline-block;
+}
+
+p {
+	color: #FFF;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
